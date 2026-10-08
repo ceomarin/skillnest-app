@@ -13,3 +13,9 @@ wheels/
 # Logs
 *.log
 
+# pruebas locales
+pruebas_locales/
+
+# thunder-cliente
+.thunder-tests/
+.thunder-client/

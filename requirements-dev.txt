@@ -14,3 +14,9 @@ httpx
 requests
 # Validación
 pydantic
+# Calidad y desarrollo
+ruff
+mypy
+pytest
+pytest-cov
+pre-commit

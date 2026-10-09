@@ -13,9 +13,14 @@ wheels/
 # Logs
 *.log
 
-# pruebas locales
-pruebas_locales/
+# development files
+.development/
 
 # thunder-cliente
 .thunder-tests/
 .thunder-client/
+
+# IA Tools
+[Cc][Ll][Aa][Uu][Dd][Ee].md
+[Vv][Ii][Ss][Ii][Oo][Nn].md
+docs/vision.md

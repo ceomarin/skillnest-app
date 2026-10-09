@@ -1,10 +1,10 @@
 [project]
 name = "skillnest-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python and AI development practice"
 readme = "README.md"
 authors = [
-    { name = "Cesar Marin Coopeuch", email = "cmarin.externo@coopeuch.cl" }
+    { name = "Cesar Marin ", email = "ceomarin.dev@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [

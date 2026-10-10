@@ -63,6 +63,8 @@ Cada petición a nuestra API **gasta dinero**, porque consume tokens de Gemini, 
   class GenerateRequest(BaseModel):
       model_config = ConfigDict(extra="forbid")
       user_story: str = Field(min_length=1, max_length=4000)
+
+
   # {"user_story": "...", "model": "gemini-ultra"}  →  422
   ```
 

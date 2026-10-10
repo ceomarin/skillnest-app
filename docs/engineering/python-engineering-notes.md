@@ -63,7 +63,7 @@
   ```python
   try:
       interaction = self._client.interactions.create(...)
-  except errors.ClientError as err:          # captura específica, try mínimo
+  except errors.ClientError as err:  # captura específica, try mínimo
       if err.code == 429:
           raise LLMRateLimitError("Gemini rate limit") from err
       raise LLMProviderError(str(err)) from err

@@ -101,6 +101,7 @@
   # ❌ Estado global: se pierde al reiniciar y no escala
   conversations: dict[str, list[str]] = {}
 
+
   # ✅ Interfaz inyectada; la implementación decide dónde persiste
   class ConversationStore(Protocol):
       def append(self, conversation_id: str, message: Message) -> None: ...

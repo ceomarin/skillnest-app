@@ -35,6 +35,7 @@
   ```python
   ServiceDep = Annotated[AssistantService, Depends(get_assistant_service)]
 
+
   @router.post("/v1/test-cases")
   def generate(request: GenerateRequest, service: ServiceDep) -> GenerateResponse: ...
   ```
